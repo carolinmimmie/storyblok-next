@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 // Importerar Storyblok-funktioner
 // getStoryblokApi används för att hämta data
@@ -31,6 +30,7 @@ const fetchTourPage = async (slug: string) => {
 
 // React-komponent som representerar en tour-sida
 // Async eftersom vi hämtar data innan vi renderar sidan
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const TourPage = async (props: any) => {
   // Hämtar storyn från Storyblok med slug från URL:en (props.params.slug)
   const story = await fetchTourPage(props.params.slug);
