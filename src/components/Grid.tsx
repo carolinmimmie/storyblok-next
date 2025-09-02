@@ -11,7 +11,7 @@ const Grid = (params: any) => {
         </h2>
         <div className="grid md:grid-flow-col auto-cols-fr mt-12 gap-8 ">
           {params.blok.items.map((blok: any) => (
-            <StoryblokComponent blok={blok} key={blok.uid} />
+            <StoryblokComponent blok={blok} key={blok._uid} />
           ))}
         </div>
       </div>
