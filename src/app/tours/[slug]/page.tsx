@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 // Importerar Storyblok-funktioner
 // getStoryblokApi används för att hämta data
