@@ -1,5 +1,5 @@
 import React from "react";
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Feature = (params: any) => {
   return (
     <div className="bg-white p-8 rounded-sm shadow">

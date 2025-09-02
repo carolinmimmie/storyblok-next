@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { StoryblokComponent } from "@storyblok/react";
 import React from "react";
 

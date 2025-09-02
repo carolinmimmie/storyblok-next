@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { renderRichText } from "@storyblok/react/rsc";
 import React from "react";
 
